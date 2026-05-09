@@ -2,133 +2,121 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>MapleOps | Kubernetes Cost Optimization</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  
+  <title>Kubernetes Cost Audit</title>
   <style>
-    body {
-      margin: 0;
-      font-family: Arial, sans-serif;
-      background: #0f172a;
-      color: #e2e8f0;
-    }
-
-    header {
-      padding: 80px 20px;
-      text-align: center;
-    }
-
-    h1 {
-      font-size: 48px;
-      margin-bottom: 20px;
-    }
-
-    h2 {
-      font-size: 32px;
-      margin-bottom: 20px;
-    }
-
-    p {
-      font-size: 18px;
-      max-width: 700px;
-      margin: auto;
-      line-height: 1.6;
-    }
-
-    .btn {
-      display: inline-block;
-      margin-top: 30px;
-      padding: 14px 28px;
-      background: #22c55e;
-      color: black;
-      text-decoration: none;
-      border-radius: 8px;
-      font-weight: bold;
-    }
-
-    section {
-      padding: 60px 20px;
-      text-align: center;
-    }
-
-    .dark {
-      background: #020617;
-    }
-
-    footer {
-      padding: 40px 20px;
-      font-size: 14px;
-      text-align: center;
-      border-top: 1px solid #334155;
-    }
-
-    a {
-      color: #22c55e;
-    }
+    body { font-family: Inter, Arial, sans-serif; margin:0; background:linear-gradient(135deg,#0f172a,#020617); color:#e2e8f0; }
+    .container { max-width: 1000px; margin: auto; padding: 20px; }
+    h1 { font-size: 2.8em; margin-bottom:10px; }
+    h2 { margin-bottom:10px; }
+    p { color:#cbd5f5; }
+    .hero { text-align:center; padding:80px 20px; }
+    .btn { background:#22c55e; color:#000; padding:14px 24px; border-radius:10px; text-decoration:none; font-weight:bold; display:inline-block; margin-top:20px; }
+    .section { margin:50px 0; }
+    .card { background:rgba(30,41,59,0.8); padding:25px; border-radius:14px; margin-bottom:20px; box-shadow:0 10px 30px rgba(0,0,0,0.3); }
+    ul { padding-left:20px; }
+    li { margin-bottom:8px; }
+    footer { margin-top:60px; padding-top:20px; border-top:1px solid #334155; text-align:center; font-size:0.9em; }
+    a { color:#38bdf8; text-decoration:none; }
   </style>
 </head>
-
 <body>
 
-<header>
-  <h1>Cut 20–50% of Your Kubernetes Costs</h1>
-  <p>
-    I help companies identify and eliminate wasted cloud spend in Kubernetes clusters — 
-    without impacting performance or reliability.
-  </p>
-  <a class="btn" href="https://calendly.com/YOUR-LINK">Book a Free Audit</a>
-</header>
+<div class="container">
 
-<section class="dark">
-  <h2>The Problem</h2>
-  <p>
-    Most Kubernetes environments are overprovisioned, misconfigured, or running workloads
-    when nobody is using them. This leads to 20–50% unnecessary cloud spend — every month.
-  </p>
-</section>
+  <div class="hero">
+    <h1>Cut Your Kubernetes Costs by 20–50%</h1>
+    <p>48-hour audit showing exactly where you're overpaying — and how to fix it</p>
+    <a href="#contact" class="btn">Get Started</a>
+  </div>
 
-<section>
-  <h2>What I Do</h2>
-  <p>
-    I analyze your cluster to uncover hidden inefficiencies across workloads, scaling behavior,
-    and infrastructure usage — then provide actionable fixes that reduce costs immediately.
-  </p>
-</section>
+  <div class="section">
+    <h2>The Problem</h2>
+    <div class="card">
+      <p>Most Kubernetes environments are overprovisioned, autoscaling is misconfigured, and resources run idle — leading to significant unnecessary cloud spend.</p>
+    </div>
+  </div>
 
-<section class="dark">
-  <h2>Proof</h2>
-  <p>
-    • Reduced cluster costs by 70% in test environments<br>
-    • Identified 30–40% waste in autoscaling setups<br>
-    • Built internal tools to detect idle workloads and overprovisioning
-  </p>
-</section>
+  <div class="section">
+    <h2>What You Get</h2>
+    <div class="card">
+      <ul>
+        <li>Full cost breakdown</li>
+        <li>Identification of wasted resources</li>
+        <li>Estimated monthly & yearly savings</li>
+        <li>Clear action plan to reduce costs safely</li>
+      </ul>
+    </div>
+  </div>
 
-<section>
-  <h2>How It Works</h2>
-  <p>
-    1. You book a free audit call<br>
-    2. I analyze your Kubernetes setup<br>
-    3. You get a report showing exactly where you're wasting money<br>
-    4. I help you implement the fixes
-  </p>
-</section>
+  <div class="section">
+    <h2>Pricing</h2>
+    <div class="card">
+      <h3>Kubernetes Cost Audit — $750</h3>
+      <p>Delivered within 48 hours</p>
+    </div>
+  </div>
 
-<section class="dark">
-  <h2>Contact</h2>
-  <p>
-    📧 Email: your@email.com<br>
-    🔗 LinkedIn: your-linkedin<br>
-  </p>
-</section>
+  <div class="section">
+    <h2>About</h2>
+    <div class="card">
+      <p>Built by Haris — focused on identifying inefficiencies in Kubernetes environments and reducing unnecessary cloud spend through structured analysis.</p>
+    </div>
+  </div>
 
-<footer>
-  <p>
-    © 2026 MapleOps. All rights reserved.<br><br>
-    <a href="terms.html">Terms of Service</a> | 
-    <a href="privacy.html">Privacy Policy</a>
-  </p>
-</footer>
+  <div class="section" id="contact">
+    <h2>Contact</h2>
+    <div class="card">
+      <p>Email: your@email.com</p>
+      <p>LinkedIn: <a href="#">Your LinkedIn Profile</a></p>
+    </div>
+  </div>
 
+  <footer>
+    <p>
+      <a href="terms.html">Terms of Service</a> |
+      <a href="privacy.html">Privacy Policy</a> |
+      <a href="refund.html">Refund Policy</a>
+    </p>
+  </footer>
+
+</div>
+
+</body>
+</html>
+
+<!-- TERMS PAGE -->
+
+<!-- Save as terms.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head><meta charset="UTF-8"><title>Terms</title></head>
+<body style="font-family:Arial;background:#020617;color:#e2e8f0;padding:40px;">
+<h1>Terms of Service</h1>
+<p>This service provides Kubernetes cost analysis and recommendations. No guarantees of specific savings are made. By purchasing, you agree to use the recommendations at your own risk. Liability is limited to the amount paid for the service.</p>
+</body>
+</html>
+
+<!-- PRIVACY PAGE -->
+
+<!-- Save as privacy.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head><meta charset="UTF-8"><title>Privacy</title></head>
+<body style="font-family:Arial;background:#020617;color:#e2e8f0;padding:40px;">
+<h1>Privacy Policy</h1>
+<p>We collect basic contact information such as email for communication purposes only. Your data is not sold or shared. For questions, contact your@email.com.</p>
+</body>
+</html>
+
+<!-- REFUND PAGE -->
+
+<!-- Save as refund.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head><meta charset="UTF-8"><title>Refund</title></head>
+<body style="font-family:Arial;background:#020617;color:#e2e8f0;padding:40px;">
+<h1>Refund Policy</h1>
+<p>All sales are final once work has begun. If cancellation is requested before work starts, a refund may be issued.</p>
 </body>
 </html>
